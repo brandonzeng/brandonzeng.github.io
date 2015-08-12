@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Mono Social Icons Font';
+  src: url('font/MonoSocialIconsFont-1.10.eot');
+  src: url('font/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+       url('font/MonoSocialIconsFont-1.10.woff') format('woff'),
+       url('font/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+       url('font/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+  src: url('font/MonoSocialIconsFont-1.10.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffc600;
+}
+
+body {
+  background-color: #00305a;
+  color: #fef5f3;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 200px;
+  text-align: center;
+}
+
+#name {
+  font-size: 3.75em;
+}
+#name:hover {
+  color: #ffc600;
+}
+
+.symbol {
+  font-size: 3em;
+  margin: 8px;
+}
+
+.symbol, a.symbol:before {
+  content: attr(title);
+  font-family: 'Mono Social Icons Font';
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
