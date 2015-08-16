@@ -29,6 +29,7 @@ body {
 
 #name {
   font-size: 3.75em;
+  color: #ffc600
 }
 #name:hover {
   color: #ffc600;
